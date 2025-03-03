@@ -1,27 +1,78 @@
-# ECommerce
+# E-Commerce Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+## 📑 Project Overview
+This is a simple E-Commerce Website where users can browse products, add them to the cart, and place orders. The project is built using:
 
-## Development server
+- 🌐 **Frontend**: Angular with Bootstrap for design and responsive layout
+- ⚙️ **Backend**: Java with Spring Boot framework
+- 🗄️ **Database**: MySQL to store product details, user information, and orders
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📂 Technology Stack
 
-## Build
+| # Layer        | # Technology           |
+|--------------|---------------------|
+| 🌐 Frontend     | Angular, Bootstrap |
+| ⚙️ Backend      | Java, Spring Boot  |
+| 🗄️ Database     | MySQL              |
+| 🔧 Build Tool   | Maven              |
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 💡 Features
 
-## Running end-to-end tests
+✅ User can view product list  
+✅ Product details page  
+✅ Add products to cart  
+✅ Place order after adding to cart  
+✅ Admin can add, update, or remove products  
+✅ User login and registration system  
+✅ Responsive design with Bootstrap  
+✅ Secure data management using MySQL  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 📁 Folder Structure
+
+E-Commerce/  
+├── Frontend/  --> Angular app (UI)  
+├── Backend/   --> Java Spring Boot app (API + Logic)  
+
+
+
+## 📥 Installation Steps : -
+
+### 1️⃣ Clone the Repo  
+git clone https://github.com/vinayakbhoj/E-commerce-Website.git
+
+### 2️⃣ Frontend Setup  
+cd Frontend  
+npm install  
+ng serve  
+
+### 3️⃣ Backend Setup
+cd Backend  
+mvn clean install  
+Run the main application class (Spring Boot)
+
+### 4️⃣ Database Setup  
+Create a database in MySQL called ecommerce_db  
+Update your application.properties file in Backend with :-
+
+spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db  
+spring.datasource.username=your-mysql-username  
+spring.datasource.password=your-mysql-password  
+
+
+## 🚀 How to Run  
+Start the Backend (Spring Boot application)  
+Start the Frontend (Angular application)  
+Open http://localhost:4200 in your browser  
+
+
+## 📧 Contact  
+If you have any doubts, feel free to contact me at:  
+### 📩 Email: vinaykbhoj31@gmail.com  
+
+
