@@ -44,7 +44,7 @@ E-Commerce/
 ## 📥 Installation Steps : -
 
 ### 1️⃣ Clone the Repo  
-git clone https://github.com/vinayakbhoj/E-commerce-Website.git
+git clone https://github.com/vinayakbhoj/E-com.git
 
 ### 2️⃣ Frontend Setup  
 cd Frontend  
